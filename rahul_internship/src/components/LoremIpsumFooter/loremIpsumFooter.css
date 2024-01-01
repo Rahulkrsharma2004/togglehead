@@ -1,0 +1,97 @@
+.footerMainDiv {
+    height: auto;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .footerImage{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+  }
+  .footerContentDiv{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .footerContactUs h2,
+  .footerHeadOffice h2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .footerContactUs p,
+  .footerHeadOffice p {
+    margin-bottom: 0.8rem;
+  }
+  
+  .followIcon {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .lastFooterDiv {
+    background-color: #10386d;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+  
+  @media (min-width: 420px) and (max-width: 900px) {
+  
+    .footerImage{
+      width: 100%;
+      height: 500px;
+
+    }
+    .footerContentDiv{
+      flex-direction: column;
+      row-gap: 1rem;
+    }
+    .footerContactUs,.footerHeadOffice{
+      width: 90%;
+      margin: auto;
+    }
+  
+    .followIcon {
+      font-size: 2rem;
+      gap: 40px;
+    }
+  }
+  
+  @media all and (max-width: 420px) {
+    .footerImage{
+      width: 100%;
+      height: 500px;
+
+    }
+    .footerContentDiv{
+      flex-direction: column;
+      row-gap: 1rem;
+    }
+    .footerContactUs,.footerHeadOffice{
+      width: 90%;
+      margin: auto;
+
+    }
+  
+    .followIcon {
+      font-size: 1.5rem;
+      gap: 20px;
+    }
+  }

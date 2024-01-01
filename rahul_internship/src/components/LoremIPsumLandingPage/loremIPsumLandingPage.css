@@ -1,0 +1,277 @@
+/* .landingPageMainDiv{
+    background-color: #F6F6F6;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landingPageTextDiv{
+    
+    width: 40%;
+    height: auto;
+    padding: 5rem;
+}
+.landingPageHtext{
+    color: #305881;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+.landingPageptext{
+    color: rgb(41, 40, 40);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+.landingPageBtn{
+    color: white;
+    background-color: #12406F;
+    padding: 0.6rem 0.8rem;
+    font-size: 1em;
+    border-radius: 0.7em;
+    font-weight: bold;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+.landingPageBtnIcon{
+    font-size: 1rem;
+    margin: auto;
+}
+.landingPageImgDiv{
+    height: 90%;
+}
+
+.vertical-slider-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .vertical-slider {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .vertical-slider img {
+    display: none;
+    width: 300px;
+    height: 300px;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .vertical-slider > .visible {
+    display: block;
+    width: 37rem;
+    height: 25rem;
+    transition: opacity 0.5s ease-in-out;
+
+  }
+  
+  .navigation-dots {
+    position: absolute;
+    top: 35%;
+    right: 20px; 
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .non-active {
+    width: 8px;
+    height: 8px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .navigation-dots > .active {
+    margin: auto;
+    background-color: #ffffff;
+    width: 2px;
+    height: 20px;
+  }
+  
+   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /* Base styles */
+.landingPageMainDiv {
+  background-color: #F6F6F6;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.landingPageTextDiv {
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.landingPageHtext {
+  color: #305881;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.landingPageptext {
+  color: rgb(41, 40, 40);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.landingPageBtn {
+  color: white;
+  background-color: #12406F;
+  padding: 0.6rem 0.8rem;
+  font-size: 1em;
+  border-radius: 0.7em;
+  font-weight: bold;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.landingPageBtnIcon {
+  font-size: 1rem;
+  margin: auto;
+}
+
+.landingPageImgDiv {
+  width: 100%;
+  height: auto;
+}
+
+.vertical-slider-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.vertical-slider {
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.5s ease-in-out;
+}
+
+.vertical-slider img {
+  display: none;
+  width: 100%;
+  height: auto;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.vertical-slider > .visible {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.navigation-dots {
+  position: absolute;
+  top: 17rem;
+  right: 20px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.non-active {
+  width: 8px;
+  height: 8px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+  top:15px;
+}
+
+.navigation-dots > .active {
+  margin: auto;
+  background-color: #ffffff;
+  width: 2px;
+  top:1rem;
+  height: 20px;
+}
+
+/* Responsive styles */
+@media (min-width: 200px) {
+  .landingPageTextDiv {
+      width: 40%;
+      text-align: left;
+      /* flex-direction: column; */
+  }
+  .landingPageMainDiv {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 768px) {
+  .landingPageTextDiv {
+      width: 40%;
+      text-align: left;
+      /* display: flex; */
+      /* flex-direction: column; */
+  }
+  .vertical-slider img {
+    display: none;
+    width: 100%;
+    height: auto;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .vertical-slider > .visible {
+    /* display: block; */
+    width: 100%;
+    height: auto;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .landingPageImgDiv {
+    width: 40%;
+    height: 40%;
+    /* display: flex; */
+  }
+  .landingPageMainDiv {
+    display: flex;
+    flex-direction: row;
+
+}
+
+}
+
+
+@media (min-width: 1024px) {
+  .landingPageMainDiv {
+      flex-direction: row;
+
+  }
+
+  .landingPageTextDiv {
+      width: 40%;
+      text-align: left;
+      padding: 5rem;
+  }
+
+  .landingPageImgDiv {
+      width: 60%;
+  }
+}

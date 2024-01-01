@@ -1,0 +1,135 @@
+.faqMainDiv{
+  margin-top: 20px;
+}
+
+.faqHeading{
+    text-align: center;
+    color: #12406F;
+}
+.mainQuestionAnswerDiv{
+    padding: 2rem 4rem 4rem 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 300px;
+}
+.faq-section {
+    width: 50%;
+    margin: auto;
+  }
+  
+  .faq-item.active .question {
+    color: rgb(57, 57, 107);
+  }
+  
+  
+  .question-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.9rem;
+    margin: auto;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(47, 47, 88);
+  }
+  
+  .icon {
+    font-size: 2rem;
+    align-self: center;
+    color: #12406F;
+  }
+
+  .answerDiv{
+    border-bottom: 1px solid rgb(42, 42, 71);
+    width: 100%;
+    padding: 0.5rem 0 0.5rem 0;
+  }
+  
+  .answer {
+    padding: 0.7rem 1rem 1rem 1rem;
+    width: 80%;
+
+  }
+
+  .SubscribeMainDiv{
+    padding: 1rem 4rem 0rem 5rem;
+    width: 89%;
+    height: auto;
+    display: flex;
+  }
+  .SubscribeTextDiv{
+    width: 50%;
+    height: 83%;
+  }
+  .inp{
+    padding: 0.8rem;
+    width: 60%;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+  .subsPtag{
+    margin: 2rem 0;
+  }
+  .subsBtn{
+    padding: 0.5rem;
+    border-radius: 0.7rem;
+    margin-left: 10px;
+    background-color: #12406F;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+  }
+  .subsBtn1 {
+    display: flex;
+  }
+  
+  .landingPageBtnIcon {
+    margin-left: 0px; 
+    font-size: 1.5rem;
+  }
+  .SubscribeImageDiv{
+    width: 55%;
+    height: 100%;
+  }
+  .subsImage{
+    height: 100%;
+    width: 90%;
+  }
+  
+
+  @media (min-width:200px) and (max-width: 990px) {
+    .subsBtn1 {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .inp{
+      padding: 0.5rem;
+      width: 200px;
+    }
+    .SubscribeTextDiv{
+      width: 40%;
+    }
+    .SubscribeTextDiv p{
+      margin: 0;
+    }
+    .subsBtn{
+      padding: 0.3rem;
+      border-radius: 0.7rem;
+      /* margin-left: 10px; */
+      background-color: #12406F;
+      color: white;
+      border: none;
+      width: 130px;
+      /* display: flex; */
+      /* align-items: center; */
+    }
+    .SubscribeMainDiv{
+      padding: 1rem 4rem 0rem 5rem;
+      width: 74%;
+      height: auto;
+    }
+    .subsPtag{
+      margin: 1rem 0;
+      font-size: 13px;
+    }
+  }

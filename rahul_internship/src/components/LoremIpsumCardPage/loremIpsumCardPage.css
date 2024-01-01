@@ -1,0 +1,156 @@
+.mainPageCardDiv{
+    background-color: #FFFFFF;
+    width: auto;
+    height: 370px;
+}
+.examinationTimeDiv{
+    width: auto;
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.examinationTimeDiv1{
+    width: 200px;
+    height: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+.examinationTimeDiv2{
+    width: 200px;
+    height: 110px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.examinaionTimeh2{
+    color: #305881;
+}
+.examinationTimep{
+    color: rgb(41, 40, 40);
+    font-size: 0.9rem;
+}
+
+.examinationTimeDiv3{
+    width: 200px;
+    height: 110px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.examinationTimeDiv4{
+    width: 200px;
+    height: 110px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.loremIpsumCardDiv{
+    margin: auto 0 auto 5rem;
+    width: 93%;
+}
+
+  .card-slider {
+    width: 100%;
+    display: flex;
+    column-gap: 30px;
+    height: 100%;
+    transition: transform 0.5s ease;
+    overflow-x: auto;
+  }
+  
+  .card {
+    flex: 0 0 19%;
+    padding: 44px;
+    background-color: #12406f;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.cardSliderMainDiv{
+    margin: 30px 0 30px auto;
+    width: 95%;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}  
+.swiper-slide>img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cardSliderImgDiv{
+    position: relative;
+    width: 100%;
+}
+.cardSliderImg{
+    width: 100%;
+  height: auto; 
+  display: block;
+}
+.cardSliderTextBtnDiv{
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  color: white; 
+  z-index: 2;
+}
+.cardSliderTextBtnDiv>h3{
+    font-weight: bold;
+    font-size: 1em;
+    margin: 0;
+}
+.cardSliderTextBtnDiv>p {
+    color: white;
+    margin: 1rem 0;
+    font-size: .85em;
+}
+.cardSliderTextBtnDiv button {
+    margin-left: -5px;
+    background: none;
+    border: none; 
+    color: white;
+    display: flex;
+  }
+  .cardSliderTextBtnDiv button p{
+      font-size: .95em;
+      margin: auto;
+  }
+  .cardSliderTextBtnDiv button img {
+      width: 1.5rem;
+      margin-left: .8rem; 
+  }
+  .cardSliderTextBtnDiv button:hover {
+      cursor: pointer;
+    }
+
+    @media all and (min-width:480px) and (max-width:768px) {
+        .cardSliderTextBtnDiv{
+            width: 95%;
+            left: 50%;
+          }
+        .cardSliderTextBtnDiv p {
+            margin: .2rem 0;
+        }
+    }
+    @media all and (max-width:480px) {
+        .cardSliderTextBtnDiv p {
+            margin: .4rem 0;
+        }
+    }
+
+  @media  (min-width:400px) and (max-width:900px) {
+    .examinationTimeDiv{
+        
+    }
+  }
+
+  @media  (max-width:400px){
+    
+  }
