@@ -41,7 +41,7 @@ Follow these steps to set up the project locally:
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/Rahulkrsharma2004/Myntra-App-Frontend/frontend.git
-   cd Myntra-App-Frontend/frontend
+   git clone https://github.com/Rahulkrsharma2004/togglehead.git
+   cd togglehead
    npm run dev
 
